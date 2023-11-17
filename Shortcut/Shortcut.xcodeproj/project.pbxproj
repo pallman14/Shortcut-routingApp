@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2554EDBA2B003D3900EC682A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDB92B003D3900EC682A /* AppDelegate.swift */; };
+		2554EDBC2B003D3900EC682A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDBB2B003D3900EC682A /* SceneDelegate.swift */; };
+		2554EDC12B003D3900EC682A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2554EDBF2B003D3900EC682A /* Main.storyboard */; };
+		2554EDC32B003D4000EC682A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554EDC22B003D4000EC682A /* Assets.xcassets */; };
+		2554EDC62B003D4000EC682A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2554EDC42B003D4000EC682A /* LaunchScreen.storyboard */; };
+		2554EDD12B003D4100EC682A /* ShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDD02B003D4100EC682A /* ShortcutTests.swift */; };
+		2554EDDB2B003D4100EC682A /* ShortcutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDDA2B003D4100EC682A /* ShortcutUITests.swift */; };
+		2554EDDD2B003D4100EC682A /* ShortcutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDDC2B003D4100EC682A /* ShortcutUITestsLaunchTests.swift */; };
+		2554EDEB2B0042C300EC682A /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 2554EDEA2B0042C300EC682A /* MapboxNavigation */; };
+		2554EDED2B00430400EC682A /* mapBoxNavUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDEC2B00430400EC682A /* mapBoxNavUIController.swift */; };
+		2554EDEF2B0043B600EC682A /* searchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDEE2B0043B600EC682A /* searchAddressViewController.swift */; };
+		2554EDF12B00440600EC682A /* emailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDF02B00440600EC682A /* emailViewController.swift */; };
+		2554EDF32B00443E00EC682A /* linksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDF22B00443E00EC682A /* linksViewController.swift */; };
+		2554EDF52B00447D00EC682A /* makeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDF42B00447D00EC682A /* makeRoute.swift */; };
+		2554EDF72B0044B400EC682A /* addLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDF62B0044B400EC682A /* addLocationsViewController.swift */; };
+		2554EDFA2B00459500EC682A /* GeneticAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDF92B00459500EC682A /* GeneticAlgorithm.swift */; };
+		2554EDFC2B0045D500EC682A /* agostiniLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDFB2B0045D500EC682A /* agostiniLocation.swift */; };
+		2554EDFE2B00460000EC682A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDFD2B00460000EC682A /* Route.swift */; };
+		2554EE002B00463500EC682A /* AddressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554EDFF2B00463500EC682A /* AddressTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2554EDCD2B003D4100EC682A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2554EDAE2B003D3900EC682A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2554EDB52B003D3900EC682A;
+			remoteInfo = Shortcut;
+		};
+		2554EDD72B003D4100EC682A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2554EDAE2B003D3900EC682A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2554EDB52B003D3900EC682A;
+			remoteInfo = Shortcut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2554EDB62B003D3900EC682A /* Shortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554EDB92B003D3900EC682A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2554EDBB2B003D3900EC682A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2554EDC02B003D3900EC682A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2554EDC22B003D4000EC682A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2554EDC52B003D4000EC682A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2554EDC72B003D4000EC682A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2554EDCC2B003D4100EC682A /* ShortcutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554EDD02B003D4100EC682A /* ShortcutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutTests.swift; sourceTree = "<group>"; };
+		2554EDD62B003D4100EC682A /* ShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554EDDA2B003D4100EC682A /* ShortcutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutUITests.swift; sourceTree = "<group>"; };
+		2554EDDC2B003D4100EC682A /* ShortcutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2554EDEC2B00430400EC682A /* mapBoxNavUIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapBoxNavUIController.swift; sourceTree = "<group>"; };
+		2554EDEE2B0043B600EC682A /* searchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchAddressViewController.swift; sourceTree = "<group>"; };
+		2554EDF02B00440600EC682A /* emailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailViewController.swift; sourceTree = "<group>"; };
+		2554EDF22B00443E00EC682A /* linksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linksViewController.swift; sourceTree = "<group>"; };
+		2554EDF42B00447D00EC682A /* makeRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeRoute.swift; sourceTree = "<group>"; };
+		2554EDF62B0044B400EC682A /* addLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addLocationsViewController.swift; sourceTree = "<group>"; };
+		2554EDF92B00459500EC682A /* GeneticAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticAlgorithm.swift; sourceTree = "<group>"; };
+		2554EDFB2B0045D500EC682A /* agostiniLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agostiniLocation.swift; sourceTree = "<group>"; };
+		2554EDFD2B00460000EC682A /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		2554EDFF2B00463500EC682A /* AddressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2554EDB32B003D3900EC682A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554EDEB2B0042C300EC682A /* MapboxNavigation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDC92B003D4100EC682A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDD32B003D4100EC682A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2554EDAD2B003D3900EC682A = {
+			isa = PBXGroup;
+			children = (
+				2554EDB82B003D3900EC682A /* Shortcut */,
+				2554EDCF2B003D4100EC682A /* ShortcutTests */,
+				2554EDD92B003D4100EC682A /* ShortcutUITests */,
+				2554EDB72B003D3900EC682A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2554EDB72B003D3900EC682A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2554EDB62B003D3900EC682A /* Shortcut.app */,
+				2554EDCC2B003D4100EC682A /* ShortcutTests.xctest */,
+				2554EDD62B003D4100EC682A /* ShortcutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2554EDB82B003D3900EC682A /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				2554EDB92B003D3900EC682A /* AppDelegate.swift */,
+				2554EDBB2B003D3900EC682A /* SceneDelegate.swift */,
+				2554EDBF2B003D3900EC682A /* Main.storyboard */,
+				2554EDC22B003D4000EC682A /* Assets.xcassets */,
+				2554EDF82B00451700EC682A /* Genetic Algorithm */,
+				2554EDF62B0044B400EC682A /* addLocationsViewController.swift */,
+				2554EDFF2B00463500EC682A /* AddressTableViewController.swift */,
+				2554EDF02B00440600EC682A /* emailViewController.swift */,
+				2554EDF42B00447D00EC682A /* makeRoute.swift */,
+				2554EDEE2B0043B600EC682A /* searchAddressViewController.swift */,
+				2554EDF22B00443E00EC682A /* linksViewController.swift */,
+				2554EDEC2B00430400EC682A /* mapBoxNavUIController.swift */,
+				2554EDC42B003D4000EC682A /* LaunchScreen.storyboard */,
+				2554EDC72B003D4000EC682A /* Info.plist */,
+			);
+			path = Shortcut;
+			sourceTree = "<group>";
+		};
+		2554EDCF2B003D4100EC682A /* ShortcutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2554EDD02B003D4100EC682A /* ShortcutTests.swift */,
+			);
+			path = ShortcutTests;
+			sourceTree = "<group>";
+		};
+		2554EDD92B003D4100EC682A /* ShortcutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2554EDDA2B003D4100EC682A /* ShortcutUITests.swift */,
+				2554EDDC2B003D4100EC682A /* ShortcutUITestsLaunchTests.swift */,
+			);
+			path = ShortcutUITests;
+			sourceTree = "<group>";
+		};
+		2554EDF82B00451700EC682A /* Genetic Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				2554EDF92B00459500EC682A /* GeneticAlgorithm.swift */,
+				2554EDFB2B0045D500EC682A /* agostiniLocation.swift */,
+				2554EDFD2B00460000EC682A /* Route.swift */,
+			);
+			path = "Genetic Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2554EDB52B003D3900EC682A /* Shortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2554EDE02B003D4100EC682A /* Build configuration list for PBXNativeTarget "Shortcut" */;
+			buildPhases = (
+				2554EDB22B003D3900EC682A /* Sources */,
+				2554EDB32B003D3900EC682A /* Frameworks */,
+				2554EDB42B003D3900EC682A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shortcut;
+			packageProductDependencies = (
+				2554EDEA2B0042C300EC682A /* MapboxNavigation */,
+			);
+			productName = Shortcut;
+			productReference = 2554EDB62B003D3900EC682A /* Shortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2554EDCB2B003D4100EC682A /* ShortcutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2554EDE32B003D4100EC682A /* Build configuration list for PBXNativeTarget "ShortcutTests" */;
+			buildPhases = (
+				2554EDC82B003D4100EC682A /* Sources */,
+				2554EDC92B003D4100EC682A /* Frameworks */,
+				2554EDCA2B003D4100EC682A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2554EDCE2B003D4100EC682A /* PBXTargetDependency */,
+			);
+			name = ShortcutTests;
+			productName = ShortcutTests;
+			productReference = 2554EDCC2B003D4100EC682A /* ShortcutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2554EDD52B003D4100EC682A /* ShortcutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2554EDE62B003D4100EC682A /* Build configuration list for PBXNativeTarget "ShortcutUITests" */;
+			buildPhases = (
+				2554EDD22B003D4100EC682A /* Sources */,
+				2554EDD32B003D4100EC682A /* Frameworks */,
+				2554EDD42B003D4100EC682A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2554EDD82B003D4100EC682A /* PBXTargetDependency */,
+			);
+			name = ShortcutUITests;
+			productName = ShortcutUITests;
+			productReference = 2554EDD62B003D4100EC682A /* ShortcutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2554EDAE2B003D3900EC682A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2554EDB52B003D3900EC682A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2554EDCB2B003D4100EC682A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2554EDB52B003D3900EC682A;
+					};
+					2554EDD52B003D4100EC682A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2554EDB52B003D3900EC682A;
+					};
+				};
+			};
+			buildConfigurationList = 2554EDB12B003D3900EC682A /* Build configuration list for PBXProject "Shortcut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2554EDAD2B003D3900EC682A;
+			packageReferences = (
+				2554EDE92B0042C300EC682A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
+			productRefGroup = 2554EDB72B003D3900EC682A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2554EDB52B003D3900EC682A /* Shortcut */,
+				2554EDCB2B003D4100EC682A /* ShortcutTests */,
+				2554EDD52B003D4100EC682A /* ShortcutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2554EDB42B003D3900EC682A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554EDC62B003D4000EC682A /* LaunchScreen.storyboard in Resources */,
+				2554EDC32B003D4000EC682A /* Assets.xcassets in Resources */,
+				2554EDC12B003D3900EC682A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDCA2B003D4100EC682A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDD42B003D4100EC682A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2554EDB22B003D3900EC682A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554EDFE2B00460000EC682A /* Route.swift in Sources */,
+				2554EDF52B00447D00EC682A /* makeRoute.swift in Sources */,
+				2554EDF72B0044B400EC682A /* addLocationsViewController.swift in Sources */,
+				2554EDBA2B003D3900EC682A /* AppDelegate.swift in Sources */,
+				2554EDFC2B0045D500EC682A /* agostiniLocation.swift in Sources */,
+				2554EDED2B00430400EC682A /* mapBoxNavUIController.swift in Sources */,
+				2554EDFA2B00459500EC682A /* GeneticAlgorithm.swift in Sources */,
+				2554EE002B00463500EC682A /* AddressTableViewController.swift in Sources */,
+				2554EDF12B00440600EC682A /* emailViewController.swift in Sources */,
+				2554EDBC2B003D3900EC682A /* SceneDelegate.swift in Sources */,
+				2554EDF32B00443E00EC682A /* linksViewController.swift in Sources */,
+				2554EDEF2B0043B600EC682A /* searchAddressViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDC82B003D4100EC682A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554EDD12B003D4100EC682A /* ShortcutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2554EDD22B003D4100EC682A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554EDDD2B003D4100EC682A /* ShortcutUITestsLaunchTests.swift in Sources */,
+				2554EDDB2B003D4100EC682A /* ShortcutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2554EDCE2B003D4100EC682A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2554EDB52B003D3900EC682A /* Shortcut */;
+			targetProxy = 2554EDCD2B003D4100EC682A /* PBXContainerItemProxy */;
+		};
+		2554EDD82B003D4100EC682A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2554EDB52B003D3900EC682A /* Shortcut */;
+			targetProxy = 2554EDD72B003D4100EC682A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2554EDBF2B003D3900EC682A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2554EDC02B003D3900EC682A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2554EDC42B003D4000EC682A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2554EDC52B003D4000EC682A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2554EDDE2B003D4100EC682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2554EDDF2B003D4100EC682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2554EDE12B003D4100EC682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shortcut/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to perform routing";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.Shortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2554EDE22B003D4100EC682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shortcut/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is needed to perform routing";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.Shortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2554EDE42B003D4100EC682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.ShortcutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shortcut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shortcut";
+			};
+			name = Debug;
+		};
+		2554EDE52B003D4100EC682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.ShortcutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shortcut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shortcut";
+			};
+			name = Release;
+		};
+		2554EDE72B003D4100EC682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.ShortcutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shortcut;
+			};
+			name = Debug;
+		};
+		2554EDE82B003D4100EC682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9V6638GZBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.oru.cit352.pallman.ShortcutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shortcut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2554EDB12B003D3900EC682A /* Build configuration list for PBXProject "Shortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554EDDE2B003D4100EC682A /* Debug */,
+				2554EDDF2B003D4100EC682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2554EDE02B003D4100EC682A /* Build configuration list for PBXNativeTarget "Shortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554EDE12B003D4100EC682A /* Debug */,
+				2554EDE22B003D4100EC682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2554EDE32B003D4100EC682A /* Build configuration list for PBXNativeTarget "ShortcutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554EDE42B003D4100EC682A /* Debug */,
+				2554EDE52B003D4100EC682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2554EDE62B003D4100EC682A /* Build configuration list for PBXNativeTarget "ShortcutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554EDE72B003D4100EC682A /* Debug */,
+				2554EDE82B003D4100EC682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2554EDE92B0042C300EC682A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2554EDEA2B0042C300EC682A /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2554EDE92B0042C300EC682A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2554EDAE2B003D3900EC682A /* Project object */;
+}

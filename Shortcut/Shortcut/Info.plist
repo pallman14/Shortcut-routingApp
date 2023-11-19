@@ -5,7 +5,7 @@
 	<key></key>
 	<string></string>
 	<key>MBXAccessToken</key>
-	<string>pk.eyJ1IjoicGFsbG1hbiIsImEiOiJjbG4ycjU5eW8wYWcxMnFxd3diNG9zcmVmIn0.7DR8ze2UZVgDu2MF8UpWeA</string>
+	<string>{insert MapBox access token her}</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

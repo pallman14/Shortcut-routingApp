@@ -29,6 +29,6 @@ Dependencies:
 MapKit: Used for route planning and map-related functionalities.
 Mapbox: Integrated for turn-by-turn navigation.
 MessageUI Framework: Utilized for email composition.
-![IMG_1464](https://github.com/user-attachments/assets/6b8c1a1f-51af-47e3-88fc-8e8c6007790a)
+<video src='https://github.com/user-attachments/assets/6b8c1a1f-51af-47e3-88fc-8e8c6007790a' width=180 height=180/>
 ![IMG_1463](https://github.com/user-attachments/assets/6db3b710-a407-492f-9939-a2b79fab1cc9)
 ![IMG_1462](https://github.com/user-attachments/assets/183117a3-465f-482a-9f8a-686ea8460ac0)
